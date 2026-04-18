@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git 'YOUR_GITHUB_REPO_URL'
+                git 'https://github.com/ratnesh90859/devops-demo.git'
             }
         }
 
